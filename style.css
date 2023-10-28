@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #e5e5e5;
+  font-family: 'Architects Daughter', cursive;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 3em;
+  margin-bottom: 0.8em;
+}
+
+p {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+div.container {
+  background-color: #fff;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+input#numeroDigitado {
+  padding: 5px;
+  font-size: 1.25em;
+  width: 80px;
+}
+
+button#btn-comprobar {
+  background-color: #008000;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+#mensaje {
+  color: #333;
+  margin-top: 1.25em;
+}
